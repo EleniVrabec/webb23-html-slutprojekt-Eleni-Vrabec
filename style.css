@@ -34,11 +34,11 @@
 }
 @keyframes slidein{
   from {
-    /* pushes the sun down past the viewport */
-    transform: translateX(200%);
+    
+    transform: translateX(100%);
   }
   to {
-    /* returns the sun to its default position */
+    
     transform: translateX(-100%);
   }
 }
