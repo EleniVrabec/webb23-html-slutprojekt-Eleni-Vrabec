@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- the last version -->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Eleni Vrabec</title>
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/de8834d373.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;500;600;700&family=Poppins:wght@400;500&family=Smokum&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="script.js" defer></script>
+  </head>
+   <!------------------------------------------------------------- body------------------------------------------------------- -->
+  <body>
+    <!-----------------------main content---------------------- -->
+    <main class="container">
+        <!-- header with navbar -->
+      <header>
+        <nav class="navbar">
+          <div class="logo">
+            <a href="#" class="logo">E. <b>V</b>rabec</a>
+          </div>
+          <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </a>
+          <div class="navbar-links">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li class="dropdown">
+                <a href="projects.html" class="dropbtn">Projects</a>
+                <ul class="dropdown-content">
+                  <li><a href="project-1.html">Project 1</a></li>
+                  <li><a href="project-2.html">Project 2</a></li>
+                  <li><a href="project-3.html">Project 3</a></li>
+                  <li><a href="project-4.html">Project 4</a></li>
+                </ul>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+        <div class="toggleSwitch">
+          <i class="fa fa-sun"></i>
+          <i class="fa fa-moon"></i>
+        </div>
+      </header>
+      <!-------------------main content------------------->
+      <section class="del-1">
+        <div class="row">
+          <div class="cols textdata">
+            <h2>Hi, I'm <span>Eleni Vrabec</span></h2>
+            <h4>soon-to-be</h4>
+            <h3>Web Developer</h3>
+            <p>Specialized in e-commerce.</p>
+            <div class="btn">
+              <button><a href="mailto:eleni.vrabec@gritacademy.se ">Contact me!</a></button>
+            </div>
+          </div>
+          <!-- images with picture tag -->
+          <div class="cols imagedata"> 
+            <div class="imgbox">
+              <picture>
+                <source
+                  srcset="bild/me-300-bw.png"
+                  media="(max-width: 800px)"
+                />
+                <source
+                  srcset="bild/me-300-bw.png"
+                  media="(max-width: 520px)"
+                />
+                <img src="bild/me.png" alt="Profile photo" />
+              </picture>
+            </div>
+            <div class="pattern">
+              <picture>
+                <source srcset="bild/bck-700.png" media="(max-width: 800px)" />
+                <source srcset="bild/bck-350.png" media="(max-width: 420px)" />
+                <img src="bild/bck.png" alt="" />
+              </picture>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- foooter  -->
+    <footer>
+      <div class="grid">
+        <div class="grid-item">
+          E-mail adress:<a href="mailto:eleni.vrabec@gritacademy.se ">
+            eleni.vrabec@gritacademy.se</a
+          >
+          <br />
+          Contact number:<a href="tel:0701419171"> 0701419171</a>
+        </div>
+        <div class="grid-item">
+          <div class="socialllinks">
+            <a
+              target="_blank"
+              href="https://www.instagram.com/elenikarasarlidis/"
+              ><i class="fab fa-instagram"></i
+            ></a>
+            <a target="_blank" href="https://www.facebook.com/eleni.vrabec"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a target="_blank" href="https://www.linkedin.com/feed/"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <a target="_blank" href="https://github.com/EleniVrabec"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
+        </div>
+        <div class="grid-item">
+          <p>&copy;All rights reserved - Eleni Vrabec</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
