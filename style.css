@@ -562,6 +562,7 @@ video {
 }
 /* animation on h1 tag which shows on top on video */
 .name > h1 > span {
+  color:var(--secondary);
   opacity: 0;
   display: inline-block;
   animation: animate 3s linear forwards;
